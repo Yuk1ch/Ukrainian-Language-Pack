@@ -1,0 +1,22 @@
+{
+    "name": "vscode-language-pack-ua",
+    "displayName": "Ukrainian Language Pack",
+    "description": "Language pack extension for Ukrainian",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Language Packs"
+    ],
+    "contributes": {
+        "localizations": [{
+            "languageId": "ua",
+            "languageName": "Ukrainian",
+            "localizedLanguageName": "Українська"
+        }]
+    },
+    "scripts": {
+        "update": "cd ../vscode && npm run update-localization-extension ua"
+    }
+}
